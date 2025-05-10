@@ -12,7 +12,6 @@ A simplified Software-Defined Networking (SDN) controller written in Python. Thi
 - Simple CLI interface
 
 
-
 ## Requirements
 
 - Python 3.x
@@ -21,7 +20,7 @@ A simplified Software-Defined Networking (SDN) controller written in Python. Thi
 
 Install dependencies:
 
-```bash
+```
 pip install networkx matplotlib
 ```
 
@@ -30,17 +29,23 @@ pip install networkx matplotlib
 2. Python
 3. Pylance
 
+
 ## How to Run
 Be sure to have VScode first. Here is the link download the application: https://code.visualstudio.com/download
 
 ```
-1. Open VScode and create an empty folder in your computer
-2. Use the command "git clone 'githubURL'" in the terminal
-3. cd into folder directory
-4. Activiate the environment by running "source .venv/bin/activate" in the terminal 
-5. Download dependencies if needed "pip install networkx matplotlib"
-6. Run the program by running "python3 sdn.py" in terminal
-7. Test
+1. Open VScode, enable extensions, and create an empty folder
+2. cd into folder directory
+3. Use the command "git clone 'githubURL'" in the terminal
+4. cd into folder directory
+5. Create Python environment
+- Mac: Ctrl + Shift + P
+- Create Python environment with venv
+- Activiate the environment by running "source .venv/bin/activate" in the terminal 
+- Close terminal and open it again
+6. Download dependencies if needed "pip install networkx matplotlib"
+7. Run the program by running "python3 sdn.py" in terminal
+8. Test
 ```
 
 ## Example Run
